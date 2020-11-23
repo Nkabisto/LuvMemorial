@@ -1,0 +1,122 @@
+div.wrapper{
+		font-family: arial, Helvetica, sans-serif;
+		min-width: 650px;
+		max-width: 1330px;
+		box-sizing: border-box;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid thin red;
+		/*background-color: #ffc;*/
+
+	}
+	div.titleBanner{
+		width: 95%;
+		height: 400px;
+		box-sizing: border-box;
+		margin: 1em 1em 0em 1.5em;
+		background-image: url('dadPhotos/orangeClouds.png');
+		border: solid thin;
+	}
+	header.myHeader{
+		font-size: 0.7em;
+		width: 100%;
+		float: right;
+		box-sizing: border-box;
+		text-align: right;
+		/*margin: 1em 1em 1em 0.5em;*/
+		border: solid thin;
+	}	
+	li.headerLinks{
+		background-color: #FFFFB9;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	h1{
+		font-family:georgia, serif;
+		font-size: 3em;
+	}
+	div.Luv{
+		text-transform: uppercase;
+		margin: 2em 0.5em 1em 1.5em;
+		text-align: center;
+		border: solid thin;
+		box-sizing: border-box;
+		width: 50%;
+		padding: 0.5em 1em 0.5em 1em;
+		text-align: center;
+		float: left;
+		color: #003399;
+	}
+	img.dad{
+		border: solid thin;
+		padding: 1em;
+		margin-top: 2em;
+		margin-right: 3em;
+		width: 35%;
+		height: 260px;
+		box-sizing: border-box;
+		float: right;
+	}
+	nav.menu{
+		width: 95%;
+		height: 50px;
+		background-color: #FFFFB9;
+		border: solid thin;	
+		margin: 1em 2em 1em 1.5em;
+		text-align: center;
+		text-transform: uppercase;			
+		font-weight: bold;		
+		box-sizing: border-box;
+	}
+	h2{
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+	h3{
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+
+	aside.myLinks{;
+		float: right;
+		width: 20%;
+		border: solid thin;
+		padding: 1em;
+		margin: 2em 2em 2em 2em;
+		background-color: #FFCC99;
+		color: #003399;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	footer.myFooter{
+		font-size: 0.7em;
+		font-weight: bold;
+		text-transform: uppercase;
+		background-color: #FFCC99;
+		border: solid thin;
+		text-align: center;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #003399;
+		width: 95%;
+}
+	nav{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		display:inline;
+		list-style-type: none;
+		border: solid thin;
+		padding: 0.3em;
+		margin-left: 1em;
+		margin-right: 1em;
+		box-sizing: border-box;
+		color: #003399;
+		width: 20%;
+	}

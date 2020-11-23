@@ -3,86 +3,10 @@
 <head>
 <title>Dr. Luvuezo Nkabi</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<link href="LMStyles.css" rel="stylesheet">
 <style>
-	div.wrapper{
-		font-family: arial, Helvetica, sans-serif;
-		width: 100%;
-		min-width: 650px;
-		max-width: 1300px;
-		box-sizing: border-box;
-		margin-left: auto;
-		margin-right: auto;
-		border: solid thin red;
-		/*background-color: #ffc;*/
-
-	}
-	#titleBanner{
-		width: 1250px;
-		height: 400px;
-		box-sizing: border-box;
-		margin: 1em 1em 0em 1.5em;
-		background-image: url('dadPhotos/orangeClouds.png');
-		border: solid thin;
-	}
-	header{
-		font-size: 0.7em;
+	blockquote#quote{
 		width: 60%;
-		float: right;
-		box-sizing: border-box;
-		text-align: right;
-	}	
-	li.myHeader{
-		background-color: #FFFFB9;
-		width: 20%;
-		box-sizing: border-box;
-	}
-
-	h1{
-		font-size: 3em;
-		font-family:georgia, serif;
-		text-transform: uppercase;
-		margin: 2em 1em 2em 2em;
-		text-align: center;
-		border: solid thin;
-		box-sizing: border-box;
-		width: 45%;
-		padding: 5px 10px 5px 10px;
-		text-align: center;
-		float: left;
-		color: #003399;
-	}
-	img#dad{
-		border: solid thin;
-		padding: 1em;
-		margin-top: 2em;
-		margin-right: 4em;
-		width: 35%;
-		height: 260px;
-		box-sizing: border-box;
-		float: right;
-	}
-	#menu{
-		width: 100%;
-		height: 50px;
-		background-color: #FFFFB9;
-		border: solid thin;	
-		margin: 1em 2em 1em 2em;
-		text-align: center;
-		text-transform: uppercase;			
-		font-weight: bold;		
-		box-sizing: border-box;
-	}
-	h2{
-		font-size: 2em;
-		text-transform: uppercase;
-	}
-	h3{
-		font-size: 1.5em;
-		text-transform: uppercase;
-	}
-	blockquote{
-		width: 50%;
 		font-size: 1.5em;
 		letter-spacing: 1em;
 		font-family:harlow solid, cursive;
@@ -96,94 +20,54 @@
 		padding-bottom: 0.5em;
 		box-sizing: border-box;
 	 }
-	aside{;
-		float: right;
-		width: 20%;
-		border: solid thin;
-		padding: 20px;
-		margin: 0em 4em 2em 2em;
-		background-color: #FFCC99;
-		color: #003399;
-		box-sizing: border-box;
-	}
-	article{
+	article.aboutHim{
 		font-size: 1em;
 		line-height: 1.5em;
 		width:60%;
-		margin-left:7em;
+		margin-left:5em;
+		margin-right: 2em;
 		margin-bottom: 2em;
 		border: solid thin;
-		padding: 10px 20px 10px 20px;
+		padding: 1em 2em 1em 2em;
 		background-color: #FFFFB9;
 		box-sizing: border-box;
 		clear: left;
 		}
-
-	footer{
-		font-size: 0.7em;
-		font-weight: bold;
-		text-transform: uppercase;
-		background-color: #FFCC99;
-		border: solid thin;
-		text-align: center;
-		margin-left: 20px;
-		margin-right: 20px;
-		color: #003399;
-}
-	nav{
-		text-transform: uppercase;
-		font-weight: bold;
-	}
-	a{
-		text-decoration: none;
-	}
-	li{
-		display:inline;
-		list-style-type: none;
-		border: solid thin;
-		padding: 0.5em;
-		margin-left: 1em;
-		margin-right: 1em;
-		box-sizing: border-box;
-		color: #003399;
-	}
-	li#myFooter{
-		/*margin-right: 100px;
-		margin-left: 100px;*/
-	}
 </style>
 </head>
 
 <body>
 <div class="wrapper">
-<div id="titleBanner">
-	<header>
+<div class="titleBanner">
+	<header class="myHeader">
 		<ul>
-			<li class="myHeader"><a href="#" alt="">English/Franscais</a></li>
-			<li class="myHeader"><a href="#" alt="">Log In</a></li>
-			<li class="myHeader"><a href="#" alt="">Register</a></li>
-			<li class="myHeader"><a href="#" alt="">Share</a></li>
+			<li class="headerLinks"><a href="#" alt="">English/Franscais</a></li>
+			<li class="headerLinks"><a href="#" alt="">Log In</a></li>
+			<li class="headerLinks"><a href="#" alt="">Register</a></li>
+			<li class="headerLinks"><a href="#" alt="">Share</a></li>
 		</ul>
 	</header>
-	<h1>Dr. Luvuezo Nkabi <br>1957-2020</br></h1>
-	<img src="dadPhotos/dad_2.png" id="dad" alt="Dr.Luvuezo Nkabi">
+	<div class="Luv">
+		<h1 class="Luv">Dr. Luvuezo Nkabi <br>1957-2020</br></h1>
+	</div>
+	<img src="dadPhotos/dad_2.png" class="dad" alt="Dr.Luvuezo Nkabi">
 </div>
-<div id="menu">
-<ul>
+<nav class="menu">
+<ul class="navLinks">
 	<li><a href="#" alt="">About</a></li>
 	<li><a href="#" alt="">Gallery</a></li>
 	<li><a href="#" alt="">Stories & Tributes</a></li>
 </ul>
-</div>
+</nav>
 
-<blockquote>"Gone But Never Forgotten"</blockquote>
-<aside>
+<blockquote id="quote">"Gone But Never Forgotten"</blockquote>
+<aside class="myLinks">
 	<p><a href="#" alt="">Recent Updates</a></p>
 	<p><a href="#" alt="">Site Views</a></p>
 	<p><a href="#" alt="">Contact Site Administrator</a></p>
 	<p><a href="#" alt="">Feedback & Suggestions</a></p>
 </aside>
-<article>
+<article class="aboutHim">
 	<p>
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
@@ -201,7 +85,7 @@ tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
 </p>
 </article>
 
-<footer>
+<footer class="myFooter">
 	<ul>
 		<li><a href="#" alt="">Copyright &copy</a></li>
 		<li id="myFooter"><a href="#" alt="">Legal</a></li>
