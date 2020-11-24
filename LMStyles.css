@@ -1,3 +1,7 @@
+body{
+	width: 100%;
+	color: #000000;
+}
 div.wrapper{
 		font-family: arial, Helvetica, sans-serif;
 		min-width: 650px;
@@ -6,19 +10,21 @@ div.wrapper{
 		margin-left: auto;
 		margin-right: auto;
 		border: solid thin red;
-		/*background-color: #ffc;*/
+		background-image: url('dadPhotos/river.png'); 
 
 	}
 	div.titleBanner{
-		width: 95%;
+		width: 100%;
 		height: 400px;
 		box-sizing: border-box;
-		margin: 1em 1em 0em 1.5em;
-		background-image: url('dadPhotos/orangeClouds.png');
+		/*margin: 1em 1em 0em 1.5em;*/
+		margin-left: auto;
+		margin-right: auto;
+		/*background-image: url('dadPhotos/orangeClouds.png');*/
 		border: solid thin;
 	}
 	header.myHeader{
-		font-size: 0.7em;
+		font-size: 1em;
 		width: 100%;
 		float: right;
 		box-sizing: border-box;
@@ -27,7 +33,7 @@ div.wrapper{
 		border: solid thin;
 	}	
 	li.headerLinks{
-		background-color: #FFFFB9;
+		background-color: #FFFFFF;
 		margin-left: 0.5em;
 		margin-right: 0.5em;
 	}
@@ -47,6 +53,7 @@ div.wrapper{
 		text-align: center;
 		float: left;
 		color: #003399;
+		background-color: #FFFFFF;
 	}
 	img.dad{
 		border: solid thin;
@@ -59,15 +66,18 @@ div.wrapper{
 		float: right;
 	}
 	nav.menu{
-		width: 95%;
+		width: 100%;
 		height: 50px;
-		background-color: #FFFFB9;
+		/*background-color: #FFFFFF;*/
 		border: solid thin;	
-		margin: 1em 2em 1em 1.5em;
+		margin: 1em auto 1em auto;
 		text-align: center;
 		text-transform: uppercase;			
 		font-weight: bold;		
 		box-sizing: border-box;
+	}
+	li.menuLinks{
+		background-color: #FFFFFF;
 	}
 	h2{
 		font-size: 2em;
@@ -83,8 +93,8 @@ div.wrapper{
 		width: 20%;
 		border: solid thin;
 		padding: 1em;
-		margin: 2em 2em 2em 2em;
-		background-color: #FFCC99;
+		margin: 2em 2em 4em 2em;
+		background-color: #FFFFFF;
 		color: #003399;
 		box-sizing: border-box;
 		text-align: center;
@@ -94,21 +104,30 @@ div.wrapper{
 		font-size: 0.7em;
 		font-weight: bold;
 		text-transform: uppercase;
-		background-color: #FFCC99;
+		background-color: #FFFFFF;
 		border: solid thin;
 		text-align: center;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: auto;
+		margin-right: auto;
 		color: #003399;
-		width: 95%;
+		width: 100%;
 }
 	nav{
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-	a{
+	a:link{
+		color: #003399;
 		text-decoration: none;
 	}
+	a:hover{
+		color: #0095FF;
+	}
+	a:active {
+		color:#000000;
+		background-color: #00FF00;
+	}
+
 	li{
 		display:inline;
 		list-style-type: none;
