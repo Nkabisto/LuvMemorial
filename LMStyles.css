@@ -2,7 +2,7 @@ body{
 	width: 100%;
 	color: #000000;
 }
-div.wrapper{
+div#wrapper{
 		font-family: arial, Helvetica, sans-serif;
 		min-width: 650px;
 		max-width: 1330px;
@@ -13,71 +13,96 @@ div.wrapper{
 		background-image: url('dadPhotos/river.png'); 
 
 	}
-	div.titleBanner{
+	div#titleBanner{
+		width:100%;
+	}
+	header#myHeader{
 		width: 100%;
-		height: 400px;
-		box-sizing: border-box;
-		/*margin: 1em 1em 0em 1.5em;*/
 		margin-left: auto;
 		margin-right: auto;
-		/*background-image: url('dadPhotos/orangeClouds.png');*/
-		border: solid thin;
-	}
-	header.myHeader{
-		font-size: 1em;
-		width: 100%;
-		float: right;
-		box-sizing: border-box;
-		text-align: right;
-		/*margin: 1em 1em 1em 0.5em;*/
-		border: solid thin;
 	}	
-	li.headerLinks{
-		background-color: #FFFFFF;
-		margin-left: 0.5em;
-		margin-right: 0.5em;
+	ul.headerLinks{
+		padding: 0em;
+		margin: 1em;
+		list-style-type: none;
+		width: 100%;
 	}
 
-	h1{
-		font-family:georgia, serif;
-		font-size: 3em;
-	}
-	div.Luv{
-		text-transform: uppercase;
-		margin: 2em 0.5em 1em 1.5em;
-		text-align: center;
-		border: solid thin;
-		box-sizing: border-box;
-		width: 50%;
-		padding: 0.5em 1em 0.5em 1em;
-		text-align: center;
-		float: left;
-		color: #003399;
-		background-color: #FFFFFF;
-	}
-	img.dad{
-		border: solid thin;
-		padding: 1em;
-		margin-top: 2em;
-		margin-right: 3em;
-		width: 35%;
-		height: 260px;
-		box-sizing: border-box;
+
+	ul.headerLinks li{
+		display: inline;
 		float: right;
 	}
-	nav.menu{
-		width: 100%;
-		height: 50px;
-		/*background-color: #FFFFFF;*/
-		border: solid thin;	
-		margin: 1em auto 1em auto;
-		text-align: center;
-		text-transform: uppercase;			
-		font-weight: bold;		
-		box-sizing: border-box;
-	}
-	li.menuLinks{
+
+	ul.headerLinks a{
+		margin-right: 1.5em;
+		border: solid thin;
 		background-color: #FFFFFF;
+		padding: 0.3em;
+		text-decoration: none;
+		display: block;
+		width: 8em;
+		text-align: center;
+	}
+
+
+	div.Luv{
+		width: 100%;
+		margin: 1em;
+		border: solid thin;
+		box-sizing: border-box;
+		padding: 2em;
+		border: none;
+	}
+	h1.drLuv{
+		font-family:segoe script,georgia, serif;
+		font-size: 3em;
+		background-color: #FFFFFF;
+		text-transform: uppercase;
+		width: 45%;
+		padding: 0.5em;
+		color: #003399;
+		float: left;
+		text-align: center;
+	}
+	img.dad{
+		padding: 1em;
+		width: 40%;
+		height: 300px;
+		box-sizing: border-box;
+		float: right;
+		margin: 1em 3em 1em 1em;
+	}
+	ul.menu{
+		margin-top: 20em;
+		margin-bottom: 1em;
+		list-style-type: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	ul.menu li{
+		display: inline;
+	}
+
+	ul.menu li a{
+		margin-right: 1.5em;
+		margin-left: 1.5em;
+		border: solid thin;
+		background-color: #FFFFFF;
+		padding: 0.3em;
+		text-decoration: none;
+		/*display: block;*/
+		width: 8em;
+		text-align: center;
+	}
+
+	.current{
+		text-decoration: underline;
+		font-weight: bold;
+		color: black;
+	}
+
 	}
 	h2{
 		font-size: 2em;
@@ -88,7 +113,7 @@ div.wrapper{
 		text-transform: uppercase;
 	}
 
-	aside.myLinks{;
+	aside#myLinks{;
 		float: right;
 		width: 20%;
 		border: solid thin;
@@ -100,7 +125,7 @@ div.wrapper{
 		text-align: center;
 	}
 
-	footer.myFooter{
+	footer#myFooter{
 		font-size: 0.7em;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -120,22 +145,11 @@ div.wrapper{
 		color: #003399;
 		text-decoration: none;
 	}
-	a:hover{
+	 ul li a:hover, a:hover{
 		color: #0095FF;
+		background-color: #0033CC;
 	}
 	a:active {
 		color:#000000;
 		background-color: #00FF00;
-	}
-
-	li{
-		display:inline;
-		list-style-type: none;
-		border: solid thin;
-		padding: 0.3em;
-		margin-left: 1em;
-		margin-right: 1em;
-		box-sizing: border-box;
-		color: #003399;
-		width: 20%;
 	}
