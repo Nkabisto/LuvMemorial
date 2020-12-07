@@ -4,6 +4,7 @@
 <title>Dr. Luvuezo Nkabi</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="LMStyles.css" rel="stylesheet">
+<link href="responsive.css" rel="stylesheet" media="screen and (max-width: 960px)">
 <style>
 	section.homage{
 		with: 30%;
@@ -11,7 +12,15 @@
 		margin-top: 0.1em;
 		padding: 2em;
 		font-size: 1em;
+		height: 300px;
 	}
+	div.formWrapper{
+		width:65%;
+	}
+	textarea.myTribute{
+		width: 100%;
+	}
+
 </style>
 </head>
 
@@ -39,20 +48,22 @@
 	<li><span class="current">Stories & Tributes</span></li>
 </ul>
 
-<aside id="myLinks">
+<aside id="myLinks">...
 	<p><a href="#">Recent Updates</a></p>
 	<p><a href="#">Site Views</a></p>
-	<p><a href="#">Contact Site Administrator</a></p>
+	<p><a href="#">Contact Us</a></p>
 	<p><a href="Feedback.html">Feedback & Suggestions</a></p>
 </aside>
 <section class="homage"> 
-	<form action=" " method="post">
-		<p><textarea name="interests" rows="5" cols="80">Share your stories or tributes...</textarea></p>
-		<p>
-			<input type="submit" value="Submit">
-			<input type="reset"  value="Clear">
-		</p>
-	</form>
+	<div class="formWrapper">
+		<form action=" " method="post" class="STForm">
+			<p><textarea name="interests" class="myTribute" rows="5" cols="70">Share your stories or tributes...</textarea></p>
+			<p>
+				<input type="submit" value="Submit">
+				<input type="reset"  value="Clear">
+			</p>
+		</form>
+	</div>
 </section>
 
 <footer id="myFooter">
